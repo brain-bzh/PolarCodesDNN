@@ -1,4 +1,4 @@
-# PolaCodesDNN
+# PolarCodesDNN
 See related paper (ArXiv link soon available) for more details.
 
 Using Deep Neural Networks to Predict and Improve Polar Codes Error Rates.
