@@ -13,7 +13,7 @@ cmake .. -G"Ninja" -DCMAKE_CXX_COMPILER="g++" -DCMAKE_BUILD_TYPE="Release" -DCMA
 ninja
 ```
 
-The following command line allows for example to generate the datasets of (1024,512) codes.
+The following command line allows for example to generate the datasets of (256,128) codes.
 
  ```bash
  ./bin/gen_aff3ct_datasets --gad-seed "2" -s "3.2" -e "1000" --enc-fb-gen-method "GA" -K "128" -N "256" --src-type "RAND" --src-implem "FAST" --chn-type "AWGN" --chn-implem "FAST" --dec-type "SCL" --dec-simd "INTRA"  --dec-polar-nodes "{R0,R0L,R1,REP,REPL,SPC_4}" -L "4" -R "18" -S "18000" --gad-term
